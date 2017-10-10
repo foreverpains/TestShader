@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Palette
+  m_Shader: {fileID: 4800000, guid: ea7f98ef122241445b7c48d66d789cd9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: a02b7ee233a8dde4eb97d43e922ab30f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _MaxRadius
+      second: 0.5
+    - first:
+        name: _MinRadius
+      second: 0.3
+    - first:
+        name: _RadiusOffset
+      second: 2.5
+    - first:
+        name: _RotateOffset
+      second: 0
+    m_Colors:
+    - first:
+        name: _Center
+      second: {r: 0.5, g: 0.5, b: 0, a: 0}

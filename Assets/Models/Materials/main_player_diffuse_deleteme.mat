@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: main_player_diffuse_deleteme
+  m_Shader: {fileID: 4800000, guid: 6a45fddb13d525b4fa6d82175eddcf5b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3010
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 6f4f389e6bf1f48ecb80b5b9318290fc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 65bc6225bfd1b48099205cde77e3abae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 189f23c38c82d4ab59e6522e18c648a9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: FracTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: MyTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Amount
+        second: .111940295
+      data:
+        first:
+          name: exL
+        second: 10
+      data:
+        first:
+          name: kP
+        second: 1
+      data:
+        first:
+          name: _Outline
+        second: .00200000009
+      data:
+        first:
+          name: _RimWidth
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .0367646813, g: .0267625265, b: .0267625265, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .731075466, g: .977941155, b: .0359536931, a: 1}
+      data:
+        first:
+          name: _MainColor
+        second: {r: 1, g: .335699797, b: .0367646813, a: 1}
+      data:
+        first:
+          name: BaseC
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ColorTint
+        second: {r: .932835817, g: .410726219, b: .410726219, a: 1}
+      data:
+        first:
+          name: _FogColor
+        second: {r: .465137005, g: .626078188, b: .649253726, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: .894249737, b: 1, a: 1}
